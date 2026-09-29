@@ -40,13 +40,10 @@ The table below summarises the complete knowledge base used by the chatbot:
 ### Step 7: Run the Chatbot
 The complete script is executed in Python. Since input() cannot be used for automated testing, the sample_queries list from Step 6 is run first to validate every intent; the same get_response() function also powers the live chat() loop for real-time conversation with a user. The output produced on running the program is shown below.
 Output
-### Sample Conversation Output (Part 1)
-●	The chatbot correctly greets the user and identifies the courses, eligibility, fees, application process and documents intents from the keywords present in each question.
-<img width="646" height="470" alt="image" src="https://github.com/user-attachments/assets/016e1f31-dd01-4348-8815-70b3577b1391" />
-### Sample Conversation Output (Part 2)
-●	The remaining queries about dates, hostel facility and contact details are correctly matched to their respective intents.
-●	The conversation ends gracefully with a goodbye message once the user types “Bye”, terminating the chat loop.
-<img width="660" height="380" alt="image" src="https://github.com/user-attachments/assets/698ac90d-7962-406c-b381-03d16bedfb3b" />
+### Output
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6d77dcd8-6558-4826-aebb-92d76f4aff6e" />
+
 ## Conclusion
 Thus, a simple rule-based College Admission Chatbot was successfully designed, implemented and tested using Python. The chatbot uses a keyword/pattern-based knowledge base to identify the intent behind a user's question and responds with an appropriate, pre-defined answer covering courses, eligibility, fees, application process, documents, dates, hostel and contact information. The experiment demonstrates the fundamental building blocks — knowledge base design, intent matching and response generation — on which more advanced NLP-based and AI-based chatbots are built.
 
